@@ -1,1 +1,8 @@
+# ───── Force backend/ & frontend/ as JavaScript ─────
+backend/** linguist-language=JavaScript
+frontend/** linguist-language=JavaScript
+
+# ───── Make .jsx and .js count as JavaScript ─────
+*.jsx   linguist-language=JavaScript
+*.js    linguist-language=JavaScript
 
