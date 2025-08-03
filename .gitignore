@@ -1,31 +1,23 @@
-# Dependencies
+# ───── Ignore node_modules ─────
 node_modules/
 **/node_modules/
 
-# Environment files
+# ───── Ignore sensitive .env files ─────
 .env
 **/.env
 
-# Build outputs
+# ───── Ignore build outputs ─────
 dist/
 build/
 
-# Logs
+# ───── Ignore logs & temp files ─────
 *.log
 npm-debug.log*
-
-# IDE files
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Package files
-package-lock.json
-**/package-lock.json
-
-# Temp files
 *.tmp
 *.temp
+
+# ───── Ignore IDE/OS files ─────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
