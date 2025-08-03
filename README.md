@@ -11,6 +11,12 @@ Built on the **MERN stack**, this application offers secure authentication (Role
 - **Application Workflow** – job seekers can apply with CV/SOP; recruiters manage applications
 - **Admin Panel** – oversee users, jobs, departments, and analytics dashboards (if implemented)
 - Responsive UI design for desktop and mobile
+Live Video Interviews (WebRTC-Based)** – Schedule and start peer-to-peer video sessions directly within the portal. No third-party links or switching tabs; built using React, WebRTC, and Socket.io / Peer.js  
+  - Host/join meeting within `VideoMeeting.jsx`  
+  - Camera, mic mute/unmute, hang-up buttons  
+  - `peerService.js` and `WebRTCService.js` manage signaling, ICE, and stream negotiation
+
+- **Real-Time Notifications & Messaging** – Admin & recruiters notified when a candidate joins the interview room
 
 ## Tech Stack
 | Layer     | Technologies              |
