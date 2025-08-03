@@ -18,13 +18,16 @@ Live Video Interviews (WebRTC-Based)** – Schedule and start peer-to-peer video
 
 - **Real-Time Notifications & Messaging** – Admin & recruiters notified when a candidate joins the interview room
 
-## Tech Stack
-| Layer     | Technologies              |
-|-----------|--------------------------|
-| Backend   | Node.js, Express.js       |
-| Database  | MongoDB (via Mongoose)    |
-| Frontend  | React.js, HTML, CSS, JS   |
-| Auth & API| JWT, RESTful routes       |
+## 🧰 Tech Stack
+
+| Layer      | Technology                   |
+|------------|------------------------------|
+| Frontend   | React, JavaScript, HTML, CSS |
+| Backend    | Node.js, Express.js          |
+| Database   | MongoDB (via Mongoose)       |
+| Real-Time  | WebRTC + Peer.js / Socket.io |
+| Auth       | JWT (Role-based access)      |
+
 
 ## Getting Started
 1. Clone the repo  
